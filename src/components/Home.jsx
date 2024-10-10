@@ -13,7 +13,7 @@ export default function Home() {
 
   return (
     <div className="container mx-auto p-4 ">
-      <h1 className="text-4xl  mb-8 text-center text-amber-800">Meals</h1>
+      <h1 className="text-4xl  mb-8 text-center text-red-800">Meals</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {meals.map((meal) => (
           <MealCard key={meal.id} meal={meal} />
